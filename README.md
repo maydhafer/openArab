@@ -1,7 +1,7 @@
 <div dir="rtl" align="right"> <p align="center"> <img src="https://raw.githubusercontent.com/maydhafer/openArab/main/openarab-logo-text.png.png" alt="OpenArab" width="100%"> </p> <p align="center"> <a href="https://github.com/openclaw/openclaw/actions/workflows/ci.yml?branch=main"><img src="https://img.shields.io/github/actions/workflow/status/openclaw/openclaw/ci.yml?branch=main&style=for-the-badge" alt="CI"></a> <a href="https://github.com/openclaw/openclaw/releases"><img src="https://img.shields.io/github/v/release/openclaw/openclaw?include_prereleases&style=for-the-badge" alt="Release"></a> <a href="https://discord.gg/clawd"><img src="https://img.shields.io/discord/1456350064065904867?label=Discord&logo=discord&logoColor=white&color=5865F2&style=for-the-badge" alt="Discord"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT"></a> </p>  <div align="right"> <div dir="rtl" align="right">
 
 <p>
-<strong>شرح وتعريب بواسطة <a href="https://x.com/alraigah">مي للتقنية</a></strong> — لكل عربي يتمنى يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة
+<strong>شرح وتعريب بواسطة لكل عربي يتمنى يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة -<a href="https://x.com/alraigah">مي للتقنية</a></strong> — 
 
   <br>
 👈 <strong><a href="https://docs.openclaw.ai/tools/skills">شوف كل المهارات المتاحة هنا</a></strong>
