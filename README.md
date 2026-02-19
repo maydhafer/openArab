@@ -1,6 +1,6 @@
 <div dir="rtl">
 
-# 🦞 OpenArab — شرح عربي لـ OpenClaw
+# 🦞 OpenClaw — شرح عربي لـ OpenArab
 
 > 📝 شرح وتعريب بواسطة **مي للتقنية**
 > تويتر: [@alraigah](https://x.com/alraigah)
