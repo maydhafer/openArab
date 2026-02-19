@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-<img src="openarab-logo-text.png" alt="OpenArab" width="100%" style="display:block; margin: -10px 0;">
+<img src="openarab-logo-text.png.png" alt="OpenArab" width="100%" style="display:block; margin: -10px 0;">
 
 </p>
 
