@@ -70,7 +70,8 @@
 </tr>
 <tr>
 <td>إيميل</td>
-<td>cvlink2030@gmail.com</td>
+<td>maydhafer2020@gmail.com
+</td>
 </tr>
 </table>
 
