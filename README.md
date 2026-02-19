@@ -1,4 +1,3 @@
-html
 <div dir="rtl" align="right">
 <p align="center">
   <img src="https://raw.githubusercontent.com/maydhafer/openArab/main/openarab-logo-text.png.png" alt="OpenArab" width="100%">
@@ -14,7 +13,7 @@ html
 <div dir="rtl" align="right">
 
 <p>
-<strong>لكل عربي يتمنى يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة — شرح وتعريب <a href="https://x.com/alraigah">مي للتقنية</a></strong> 🌸
+ <a href="https://x.com/alraigah">مي للتقنية</a></strong> 🌸 <strong>لكل عربي يتمنى يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة — شرح وتعريب
 </p>
 
 <hr>
