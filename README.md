@@ -16,7 +16,7 @@
 <li>📚 <a href="https://docs.openclaw.ai">الوثائق الكاملة</a></li>
 <li>💬 <a href="https://discord.gg/clawd">مجتمع Discord</a></li>
 <li>☁️ <a href="https://hostinger.ae?REFERRALCODE=MayDhafer">Hostinger — استضافة سحابية موصى بها</a></li>
-</ul>👈 <strong><a href="https://docs.openclaw.ai/tools/skills">شوف كل المهارات المتاحة هنا</a></strong>
+</ul>👈 <strong><a href="https://docs.openclaw.ai/tools/skills">أستمتع بمهارات جبارة بتفيدك بكل شي تصفح هنا</a></strong>
 
 
 <hr>
