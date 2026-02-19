@@ -1,7 +1,7 @@
 
 <div dir="rtl">
 
-# 🦅 أوبن عرب (OpenArab)
+# ♻️🦅 أوبن عرب (OpenArab)
 
 > 📝 هذا الشرح بواسطة **مي للتقنية**
 > تويتر: [@alraigah](https://x.com/alraigah)
@@ -23,10 +23,7 @@
   <a href="https://discord.gg/clawd"><img src="https://img.shields.io/discord/1456350064065904867?label=Discord&logo=discord&logoColor=white&color=5865F2&style=for-the-badge" alt="Discord"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT"></a>
 </p>
-sent via SMS
-الجزء الثاني:
-
---- الجزء 2 ---
+-
 
 <div dir="rtl">
 
