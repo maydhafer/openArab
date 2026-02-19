@@ -21,39 +21,6 @@
 
 <hr>
 
-<h2>👋 تواصلي معي</h2>
-
-<table border="1" cellpadding="8" cellspacing="0" width="100%">
-<tr>
-<th>المنصة</th>
-<th>الرابط</th>
-</tr>
-<tr>
-<td>X (تويتر)</td>
-<td><a href="https://x.com/alraigah">@alraigah</a></td>
-</tr>
-<tr>
-<td>تيليغرام</td>
-<td><a href="https://t.me/alraigah_M">@alraigah_M</a></td>
-</tr>
-<tr>
-<td>يوتيوب</td>
-<td><a href="https://www.youtube.com/@usb_boot">@usb_boot</a></td>
-</tr>
-<tr>
-<td>إيميل</td>
-<td>maydhafer2020@gmail.com
-</td>
-</tr>
-</table>
-
-<hr>
-
-<blockquote>
-هذا المشروع شرح وتعريب لـ <a href="https://github.com/openclaw/openclaw">OpenClaw</a> بترخيص MIT.<br>
-الهدف إن كل عربي يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة — <strong>مي للتقنية</strong>
-</blockquote>
-
 <hr>
 
 <h2>🔗 ربط OpenClaw بالتطبيقات</h2>
@@ -186,6 +153,39 @@ OpenClaw نفسه مجاني (مفتوح المصدر).
 
 <hr>
 
+
+<h2>👋 تواصلي معي</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<tr>
+<th>المنصة</th>
+<th>الرابط</th>
+</tr>
+<tr>
+<td>X (تويتر)</td>
+<td><a href="https://x.com/alraigah">@alraigah</a></td>
+</tr>
+<tr>
+<td>تيليغرام</td>
+<td><a href="https://t.me/alraigah_M">@alraigah_M</a></td>
+</tr>
+<tr>
+<td>يوتيوب</td>
+<td><a href="https://www.youtube.com/@usb_boot">@usb_boot</a></td>
+</tr>
+<tr>
+<td>إيميل</td>
+<td>maydhafer2020@gmail.com
+</td>
+</tr>
+</table>
+
+<hr>
+
+<blockquote>
+هذا المشروع شرح وتعريب لـ <a href="https://github.com/openclaw/openclaw">OpenClaw</a> بترخيص MIT.<br>
+الهدف إن كل عربي يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة — <strong>مي للتقنية</strong>
+</blockquote>
 
 <hr>
 
