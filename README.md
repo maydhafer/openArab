@@ -1,6 +1,7 @@
 <div dir="rtl" align="right"> <p align="center"> <img src="https://raw.githubusercontent.com/maydhafer/openArab/main/openarab-logo-text.png.png" alt="OpenArab" width="100%"> </p> <p align="center"> <a href="https://github.com/openclaw/openclaw/actions/workflows/ci.yml?branch=main"><img src="https://img.shields.io/github/actions/workflow/status/openclaw/openclaw/ci.yml?branch=main&style=for-the-badge" alt="CI"></a> <a href="https://github.com/openclaw/openclaw/releases"><img src="https://img.shields.io/github/v/release/openclaw/openclaw?include_prereleases&style=for-the-badge" alt="Release"></a> <a href="https://discord.gg/clawd"><img src="https://img.shields.io/discord/1456350064065904867?label=Discord&logo=discord&logoColor=white&color=5865F2&style=for-the-badge" alt="Discord"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT"></a> </p>  <div align="right"> <div dir="rtl" align="right">
 
 <p>
+  
 <strong>    لكل عربي يتمنى يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة -  شرح وتعريب <a href="https://x.com/alraigah"> مي للتقنية </a></strong>🌸 
 
   <br>
@@ -55,13 +56,17 @@
 </tr>
 </table>
 
+
 <hr>
+
 
 <h2>🛠️ المهارات — وش يقدر يسوي بالضبط؟</h2>
 
-</ul>👈 <strong><a href="https://docs.openclaw.ai/tools/skills">أستمتع بمهارات جبارة بتفيدك بكل شي تصفح هنا</a></strong>
 
 OpenClaw يدعم مهارات جاهزة تضيفها بضغطة زر، وتخدم الأفراد مثل ما تخدم الشركات.
+
+</ul>👈 <strong><a href="https://docs.openclaw.ai/tools/skills">أستمتع بمهارات جبارة بتفيدك بكل شي تصفح هنا</a></strong>
+
 
 <h3>📢 التسويق الشخصي وصناعة المحتوى</h3>
 <ul>
