@@ -4,7 +4,6 @@
 <strong>    لكل عربي يتمنى يوصل لأقوى أدوات الذكاء الاصطناعي بسهولة -  شرح وتعريب <a href="https://x.com/alraigah"> مي للتقنية </a></strong>🌸 
 
   <br>
-👈 <strong><a href="https://docs.openclaw.ai/tools/skills">شوف كل المهارات المتاحة هنا</a></strong>
 </p>
 
 <hr>
@@ -17,7 +16,8 @@
 <li>📚 <a href="https://docs.openclaw.ai">الوثائق الكاملة</a></li>
 <li>💬 <a href="https://discord.gg/clawd">مجتمع Discord</a></li>
 <li>☁️ <a href="https://hostinger.ae?REFERRALCODE=MayDhafer">Hostinger — استضافة سحابية موصى بها</a></li>
-</ul>
+</ul>👈 <strong><a href="https://docs.openclaw.ai/tools/skills">شوف كل المهارات المتاحة هنا</a></strong>
+
 
 <hr>
 
