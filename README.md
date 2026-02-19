@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-<img src="https://lindy.nyc3.digitaloceanspaces.com/user-content/prod/owners/69955498b796a2156db13558/attachments/e310bd1f-1308-481b-ad7d-b8a63b0400af-openarab-logo-text.png.png" alt="OpenArab" width="100%" style="display:block; margin: -10px 0;">
+<img src="openarab-logo-text.png" alt="OpenArab" width="100%" style="display:block; margin: -10px 0;">
 
 </p>
 
