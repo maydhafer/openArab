@@ -8,7 +8,7 @@
 
 <hr>
 
-<h2>❓ مشاكل شائعة وحلولها</h2>
+<h2> مشاكل شائعة وحلولها❓</h2>
 
 <table border="1" cellpadding="8" cellspacing="0" width="100%">
 <tr>
