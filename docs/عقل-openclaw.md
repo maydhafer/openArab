@@ -1,142 +1,196 @@
 <div dir="rtl">
 
-![عقل OpenClaw](../تصميم%20بدون%20عنوان%20(1).png)
+# 🧠 عقل OpenClaw — الدليل الكامل
 
-<div align="center">
-
-# 🧠 الدخول إلى عقل OpenClaw
-## من يتحكم في الملفات السبعة — يتحكم في كل شيء
-
-> وكيل بـ ٤٤ دولار يحل محل موظف بـ ٢٠٠٠ دولار شهرياً.
-> السر مش في الأداة — السر في **كيف تغذّيها.**
-
-[![Twitter](https://img.shields.io/badge/مي_للتقنية-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://x.com/alraigah)
-[![GitHub](https://img.shields.io/badge/openArab-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maydhafer/openArab)
-
-</div>
+> دليل تقني عميق لفهم وبناء وكلاء AI احترافيين باستخدام OpenClaw
 
 ---
 
-## 🗺️ الخريطة الكاملة — قبل ما تبدأ
+## 📋 فهرس سريع
 
-```
+|
+#
+|
+ الموضوع 
+|
+ الوصف 
+|
+|
+---
+|
+---------
+|
+-------
+|
+|
+[
+١
+](
+#١-ما-هو-openclaw
+)
+|
+ ما هو OpenClaw؟ 
+|
+ نظرة عامة على المنصة 
+|
+|
+[
+٢
+](
+#٢-الدخول-للعقل--ملفات-workspace
+)
+|
+ الدخول للعقل 
+|
+ شرح ملفات Workspace السبعة 
+|
+|
+[
+٣
+](
+#٣-إنشاء-الوكلاء
+)
+|
+ إنشاء الوكلاء 
+|
+ كيف تبني وكيلك خطوة بخطوة 
+|
+|
+[
+٤
+](
+#٤-الربح-من-الوكلاء
+)
+|
+ الربح من الوكلاء 
+|
+ نماذج عمل حقيقية وأرقام 
+|
+|
+[
+٥
+](
+#٥-تنظيم-الوكلاء-وإدارتهم
+)
+|
+ تنظيم الوكلاء 
+|
+ Docker، المراقبة، والصيانة 
+|
+|
+[
+٦
+](
+#٦-الأدوات-والتكاملات
+)
+|
+ الأدوات والتكاملات 
+|
+ Brave، Calendar، Whisper وغيرها 
+|
+
+---
+
+## ١. ما هو OpenClaw؟
+
+OpenClaw منصة مفتوحة المصدر تشغّل وكلاء AI على سيرفرك الخاص.  
+مش SaaS، مش اشتراك شهري لكل وكيل — أنت تملك البنية التحتية كاملة.
+
+**الفرق الجوهري:**
+
+| | OpenClaw | منصات SaaS |
+|--|---------|------------|
+| التحكم | كامل | محدود |
+| التكلفة | ثابتة (سيرفر فقط) | تتضاعف مع كل وكيل |
+| الخصوصية | بياناتك عندك | بيانات على سيرفرات الغير |
+| التخصيص | لا حدود | محدود بالخطة |
+
+---
+
+## ٢. الدخول للعقل — ملفات Workspace
+
+كل وكيل في OpenClaw يعيش في مجلد واحد:
+
+```bash
 
 ~/.openclaw/workspace/
 
-├── 🌱 SOUL.md        ← شخصية الوكيل وروحه
+├── SOUL.md        # الشخصية والقيم
 
-├── 🪪 IDENTITY.md    ← هويته ومفاتيحه السرية
+├── IDENTITY.md    # الهوية والتوكنات
 
-├── 🤖 AGENTS.md      ← عقله وطريقة تفكيره
+├── AGENTS.md      # إعدادات النماذج
 
-├── 🚀 BOOTSTRAP.md   ← إعداده الأولي
+├── BOOTSTRAP.md   # إعداد البيئة الأولي
 
-├── 💓 HEARTBEAT.md   ← نبضه ومراقبته
+├── HEARTBEAT.md   # المراقبة والصيانة
 
-├── 🛠️ TOOLS.md       ← قدراته وأدواته
+├── TOOLS.md       # الأدوات والتكاملات
 
-└── 👤 USER.md        ← من يحق له التحدث معه
-```
+└── USER.md        # الصلاحيات والأوامر
+📄 SOUL.md — روح الوكيل
+هذا الملف يحدد شخصية الوكيل وقيمه الأساسية.
+كل ما تكتبه هنا يصبح جزءاً من system prompt الوكيل.
 
-> **القاعدة الذهبية:** كل ملف = بُعد مختلف من شخصية وكيلك.
-> عدّل الملفات = غيّر الوكيل كلياً. بدون كود. بدون برمجة.
+مثال عملي:
+
+undefined
+SOUL
+الشخصية
+أنا مساعد تقني متخصص في دعم المطورين العرب.
+
+أتحدث بوضوح وأبسّط المعلومة التقنية.
+
+القيم الأساسية
+الدقة أولاً: لا أخمّن، أبحث وأتأكد
+الاحترام: أتعامل مع كل سؤال باهتمام حقيقي
+الاستمرارية: أتذكر السياق وأبني عليه
+أسلوب التواصل
+عربي فصيح مبسّط
+أمثلة عملية دائماً
+لا مصطلحات معقدة بدون شرح
+
+> 💡 **نصيحة:** SOUL.md هو الفرق بين وكيل "يجاوب" ووكيل "يفهم". استثمر فيه وقتك.
 
 ---
 
-## 🌱 الملف الأول: `SOUL.md` — الروح والشخصية
+### 🪪 IDENTITY.md — هوية الوكيل
 
-> **هذا الملف هو الفرق بين وكيل ميت ووكيل حي.**
-> هنا تحدد: من هو وكيلك؟ كيف يفكر؟ ما الذي يهتم به؟
-
-### ما تكتبينه هنا يحدد:
-- **الهوية:** اسم الوكيل، شخصيته، أسلوب كلامه
-- **القيم:** ما يرفضه وما يقبله
-- **التخصص:** المجال الذي يتقنه
-- **الأسلوب:** رسمي؟ ودود؟ مختصر؟ مفصّل؟
-
-### مثال عملي — وكيل تقني عربي:
+يحتوي على **التوكنات والمعرّفات الفريدة** للوكيل.
 
 ```markdown
-روح الوكيل
-الهوية
-أنت "رايق" — مساعد تقني ذكي متخصص في التقنية والإنتاجية.
+IDENTITY
+AGENT_ID: agent_arabic_support_v1
 
-تتكلم بالعربي الفصيح البسيط المفهوم للجميع.
+AGENT_NAME: مساعد مهندسك
 
-أسلوبك: مباشر، مفيد، بدون حشو.
+VERSION: 1.0.0
 
-قيمك
-الدقة أهم من السرعة
-تبسيط المعلومة التقنية للعامة
-لا تخترع معلومات — إذا ما تعرف، قل ذلك
-تخصصك
-Windows, Mac, Linux
-الذكاء الاصطناعي والأتمتة
-حل المشاكل التقنية خطوة بخطوة
-أسلوبك
-ردود مختصرة ومنظمة
-استخدم النقاط والقوائم
-أضف مثال عملي دائماً
+CREATED: 2026-02-24
 
-### 💡 نصيحة مي:
-> كلما كانت الروح أوضح وأكثر تفصيلاً — كلما كان الوكيل أذكى وأكثر تخصصاً. لا تكتب سطرين وتتوقع معجزة.
+OWNER: maydhafer
 
----
+API Keys
+ANTHROPIC_KEY: sk-ant-...
 
-## 🪪 الملف الثاني: `IDENTITY.md` — الهوية والمفاتيح
+OPENAI_KEY: sk-...
 
-> **هذا الملف = جواز سفر وكيلك.**
-> يحتوي على المفاتيح السرية التي تثبت هويته للسيرفر.
+GEMINI_KEY: AIza...
 
-### ما يحتويه:
+Webhook
+WEBHOOK_SECRET: your_secret_here
 
-| العنصر | الوصف |
-|--------|-------|
-| `OPENCLAW_GATEWAY_TOKEN` | مفتاح الدخول الرئيسي للسيرفر |
-| `SERVER_TOKEN` | رمز التحقق من هوية الوكيل |
-| `AGENT_ID` | معرف الوكيل الفريد |
+CALLBACK_URL: https://yourdomain.com/webhook
 
-### كيف تحدّثين المفاتيح:
+
+> ⚠️ **تحذير:** لا ترفع هذا الملف على GitHub أبداً. أضفه لـ `.gitignore` فوراً.
 
 ```bash
-الدخول للسيرفر
-ssh root@IP_السيرفر
 
-تعديل ملف الهوية
-nano /data/.openclaw/workspace/IDENTITY.md
+echo "IDENTITY.md" >> .gitignore
+🤖 AGENTS.md — إعدادات النماذج
+هنا تحدد أي نموذج AI يستخدم الوكيل وكيف يتصرف.
 
-أو عبر openclaw.json
-nano /var/lib/docker/volumes/openclaw-mi13_openclaw_config/_data/openclaw.json
-
-
-### ⚠️ تحذير مهم:
-🔴 لا تشارك هذا الملف مع أحد
-
-🔴 لا تنشر محتواه في أي مكان
-
-🔴 إذا تسرّب — غيّر المفاتيح فوراً
-
-
----
-
-## 🤖 الملف الثالث: `AGENTS.md` — العقل والذكاء
-
-> **هنا تحدد كيف يفكر وكيلك — أي نموذج ذكاء اصطناعي يستخدم؟**
-> هذا الملف هو الفرق بين وكيل غبي ووكيل عبقري.
-
-### إضافة وكيل جديد:
-
-```bash
-أمر إضافة وكيل
-openclaw agents add [اسم_الوكيل]
-
-إعداد الوكيل
-openclaw configure
-
-
-### إعداد النموذج في `openclaw.json`:
-
-```json
 
 {
 
@@ -150,7 +204,7 @@ openclaw configure
 
         "api": "openai-completions",
 
-        "apiKey": "sk-ant-XXXXXXXX",
+        "apiKey": "sk-ant-...",
 
         "baseUrl": "https://api.anthropic.com/v1",
 
@@ -158,11 +212,69 @@ openclaw configure
 
           {
 
-            "name": "claude-3-5-sonnet-20241022",
+            "id": "claude-3-5-sonnet-20241022",
 
-            "label": "Claude Sonnet",
+            "name": "Claude 3.5 Sonnet",
 
-            "contextWindow": 200000
+            "contextLength": 200000,
+
+            "maxTokens": 8192
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "name": "openai",
+
+        "api": "openai-completions",
+
+        "apiKey": "sk-...",
+
+        "baseUrl": "https://api.openai.com/v1",
+
+        "models": [
+
+          {
+
+            "id": "gpt-4o",
+
+            "name": "GPT-4o",
+
+            "contextLength": 128000,
+
+            "maxTokens": 4096
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "name": "google",
+
+        "api": "openai-completions",
+
+        "apiKey": "AIza...",
+
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+
+        "models": [
+
+          {
+
+            "id": "gemini-2.0-flash",
+
+            "name": "Gemini 2.0 Flash",
+
+            "contextLength": 1000000,
+
+            "maxTokens": 8192
 
           }
 
@@ -175,401 +287,690 @@ openclaw configure
   }
 
 }
-مقارنة النماذج المتاحة:
-النموذج	الشركة	القوة	التكلفة	الأفضل لـ
-claude-3-5-sonnet	Anthropic	⭐⭐⭐⭐⭐	متوسطة	التحليل العميق والكتابة
-gpt-4o	OpenAI	⭐⭐⭐⭐⭐	متوسطة	المهام المتنوعة
-gpt-4o-mini	OpenAI	⭐⭐⭐⭐	منخفضة	المهام السريعة
-gemini-pro	Google	⭐⭐⭐⭐	مجاني	البداية والتجربة
-إعداد وكلاء متعددة:
+استراتيجية اختيار النموذج:
+
+المهمة	النموذج الأنسب	السبب
+تحليل معقد	Claude 3.5 Sonnet	أفضل في التفكير المنطقي
+ردود سريعة	Gemini 2.0 Flash	سرعة + سعر منخفض
+كتابة إبداعية	GPT-4o	متوازن في الإبداع
+مهام اقتصادية	Gemini Flash	الأرخص بفارق كبير
+🚀 BOOTSTRAP.md — الإعداد الأولي
+يُشغَّل مرة واحدة فقط عند أول تشغيل للوكيل.
+يحتوي على متغيرات البيئة والإعدادات الأساسية.
+
 undefined
-وكيل للمبيعات
-openclaw agents add sales-agent
+#!/bin/bash
 
-openclaw configure
+BOOTSTRAP.md — يُنفَّذ عند أول تشغيل
+متغيرات البيئة
+export OPENCLAW_ENV=production
 
-وكيل للمحتوى
-openclaw agents add content-agent
+export OPENCLAW_PORT=3000
 
-openclaw configure
+export OPENCLAW_LOG_LEVEL=info
 
-وكيل للدعم
-openclaw agents add support-agent
+export OPENCLAW_MEMORY_LIMIT=2048
 
-openclaw configure
+إعداد قاعدة البيانات
+export DB_HOST=localhost
+
+export DB_PORT=5432
+
+export DB_NAME=openclaw_db
+
+إعداد WhatsApp (اختياري)
+export WHATSAPP_ENABLED=true
+
+export WHATSAPP_SESSION_PATH=~/.openclaw/sessions/whatsapp
+
+تهيئة المجلدات
+mkdir -p ~/.openclaw/logs
+
+mkdir -p ~/.openclaw/sessions
+
+mkdir -p ~/.openclaw/memory
+
+echo "✅ Bootstrap completed successfully"
 
 
-> **💰 الفرصة الحقيقية:** وكيل واحد بـ ٤٤ دولار شهرياً يحل محل موظف بـ ٢٠٠٠ دولار. ثلاثة وكلاء = ٦٠٠٠ دولار توفير شهري.
-
----
-
-## 🚀 الملف الرابع: `BOOTSTRAP.md` — الإعداد الأولي
-
-> **هذا الملف يُشغَّل مرة واحدة فقط — عند بدء الوكيل لأول مرة.**
-> مثل إعداد هاتف جديد — تفعله مرة وتنسى.
-
-### المتغيرات الأساسية:
+**تشغيل Bootstrap:**
 
 ```bash
-مفاتيح الذكاء الاصطناعي
-ANTHROPIC_API_KEY=sk-ant-XXXXXXXXXXXXXXXX
 
-OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXX
+chmod +x ~/.openclaw/workspace/BOOTSTRAP.md
 
-مفتاح OpenClaw
-OPENCLAW_GATEWAY_TOKEN=your-gateway-token
+bash ~/.openclaw/workspace/BOOTSTRAP.md
+💓 HEARTBEAT.md — مراقبة الوكيل
+يحتوي على أوامر المراقبة والصيانة اليومية.
 
-مفتاح البحث (اختياري)
-BRAVE_SEARCH_API_KEY=BSA-XXXXXXXX
+أوامر Docker الأساسية:
 
-مفتاح Moltbook (اختياري)
-MOLTBOOK_API_KEY=your-moltbook-key
-
-
-### إعداد WhatsApp في `openclaw.json`:
-
-```json
-
-{
-
-  "channels": {
-
-    "whatsapp": {
-
-      "enabled": true,
-
-      "phoneNumberId": "PHONE_NUMBER_ID",
-
-      "accessToken": "YOUR_ACCESS_TOKEN",
-
-      "webhookVerifyToken": "YOUR_VERIFY_TOKEN"
-
-    }
-
-  }
-
-}
-التحقق من نجاح الإعداد:
 undefined
-تحقق من حالة الحاويات
+عرض حالة كل الوكلاء
 docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
 
-تحقق من السجلات
-docker logs --tail 50 openclaw
+متابعة logs وكيل معين
+docker logs -f openclaw-agent --tail=100
 
-اختبر الاتصال
-curl -sS http://localhost:3000/health
+إعادة تشغيل وكيل
+docker restart openclaw-agent
 
+إيقاف وكيل
+docker stop openclaw-agent
 
----
+تشغيل وكيل
+docker start openclaw-agent
 
-## 💓 الملف الخامس: `HEARTBEAT.md` — النبض والمراقبة
+عرض استهلاك الموارد
+docker stats openclaw-agent --no-stream
 
-> **هذا الملف يراقب صحة وكيلك على مدار الساعة.**
-> مثل جهاز مراقبة القلب — يخبرك إذا في مشكلة قبل ما تتفاقم.
-
-### أوامر المراقبة الأساسية:
-
-```bash
-شوف كل الحاويات الشغّالة
-docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
-
-آخر ١٠٠ سطر من السجلات
-docker logs --tail 100 openclaw
-
-مراقبة السجلات مباشرة (live)
-docker logs -f openclaw
-
-إعادة تشغيل الوكيل
-docker restart openclaw
-
-إيقاف الوكيل
-docker stop openclaw
-
-تشغيل الوكيل
-docker start openclaw
+حذف وكيل قديم
+docker rm -f openclaw-agent-old
 
 
-### البحث عن ملف معين:
+**سكريبت مراقبة تلقائي:**
 
 ```bash
-البحث عن openclaw.json
-find / -iname "openclaw.json" 2>/dev/null
+#!/bin/bash
 
-البحث عن مجلد workspace
-find / -iname "workspace" -type d 2>/dev/null
+heartbeat_check.sh — شغّله كل 5 دقائق عبر cron
+AGENT_NAME="openclaw-agent"
+
+STATUS=$(docker inspect --format='{{.State.Status}}' $AGENT_NAME 2>/dev/null)
+
+if [ "$STATUS" != "running" ]; then
+
+echo "⚠️ الوكيل متوقف! جاري إعادة التشغيل..."
+
+docker restart $AGENT_NAME
+
+# أرسل إشعار (اختياري)
+
+curl -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+
+     -d "chat_id=$CHAT_ID&text=🔄 تم إعادة تشغيل $AGENT_NAME تلقائياً"
+fi
 
 
-### إعداد مراقبة تلقائية (Cron):
+**إضافة للـ cron:**
 
 ```bash
-فتح محرر Cron
+افتح crontab
 crontab -e
 
-مراقبة كل ٥ دقائق وإعادة التشغيل إذا توقف
-*/5 * * * * docker ps | grep openclaw || docker restart openclaw
+أضف هذا السطر (كل 5 دقائق)
+*/5 * * * * /bin/bash ~/.openclaw/workspace/heartbeat_check.sh
 
 
 ---
 
-## 🛠️ الملف السادس: `TOOLS.md` — الأدوات والقدرات
+### 🛠️ TOOLS.md — الأدوات والتكاملات
 
-> **هنا تضيف "أذرع" جديدة لوكيلك.**
-> كل أداة تضيفها = قدرة جديدة يكتسبها الوكيل.
+يحدد **الأدوات الخارجية** التي يستطيع الوكيل استخدامها.
 
-### الأدوات المتاحة عبر ClawHub:
+```yaml
+TOOLS.md
+tools:
 
-| الأداة | الوصف | الاستخدام |
-|--------|-------|-----------|
-| 🔍 **Brave Search** | بحث في الإنترنت بدون تتبع | أبحاث، أخبار، معلومات |
-| 📅 **Google Calendar** | إدارة المواعيد والجدول | جدولة، تذكير، تنظيم |
-| 🎥 **YouTube Watcher** | مراقبة وتلخيص الفيديوهات | متابعة قنوات، ملخصات |
-| 🎙️ **Whisper** | تحويل الصوت إلى نص | نسخ الاجتماعات، الملاحظات |
-| 🌐 **Perplexity** | بحث ذكي بالذكاء الاصطناعي | تحليل، بحث عميق |
-| ⚙️ **n8n** | أتمتة المهام والسير | ربط التطبيقات، أتمتة |
-| 📊 **GA4 Analytics** | تحليل بيانات الموقع | إحصائيات، تقارير |
-| 📝 **TranscriptAPI** | نسخ المحادثات | توثيق، أرشفة |
+البحث على الإنترنت
+brave_search:
 
-### تفعيل Brave Search:
+enabled: true
+
+api_key: "BSA..."
+
+max_results: 10
+
+safe_search: moderate
+تقويم Google
+google_calendar:
+
+enabled: true
+
+credentials_path: ~/.openclaw/credentials/google.json
+
+scopes:
+
+  - https://www.googleapis.com/auth/calendar.readonly
+
+  - https://www.googleapis.com/auth/calendar.events
+تحويل الصوت لنص
+whisper:
+
+enabled: true
+
+model: "whisper-1"
+
+language: "ar"
+
+api_key: "sk-..."
+إدارة المهام
+notion:
+
+enabled: true
+
+api_key: "secret_..."
+
+database_id: "your_db_id"
+إرسال الإيميل
+email:
+
+enabled: true
+
+provider: smtp
+
+host: smtp.gmail.com
+
+port: 587
+
+username: "your@gmail.com"
+
+password: "app_password"
+
+**كيف يستخدم الوكيل الأدوات:**
+
+```python
+مثال: الوكيل يبحث ثم يضيف للتقويم
+agent.search("أفضل مطاعم الرياض 2026")
+
+→ يستخدم Brave Search تلقائياً
+agent.add_event("اجتماع مع العميل", "2026-02-25 10:00")
+
+→ يضيف لـ Google Calendar تلقائياً
+
+---
+
+### 👤 USER.md — الصلاحيات والأوامر
+
+يحدد **من يستطيع التحكم بالوكيل** وما هي الأوامر المتاحة.
+
+```markdown
+USER.md
+المستخدمون المصرح لهم
+ADMIN_USERS:
+
+maydhafer@gmail.com
+
+admin@yourdomain.com
+
+REGULAR_USERS:
+
+team@yourdomain.com
+الأوامر المتاحة
+أوامر الأدمن
+/restart — إعادة تشغيل الوكيل
+
+/status — عرض حالة الوكيل
+
+/logs — عرض آخر 50 سطر من logs
+
+/update — تحديث الوكيل
+
+/config — عرض الإعدادات الحالية
+
+أوامر المستخدم العادي
+/help — عرض قائمة الأوامر
+
+/reset — إعادة تعيين المحادثة
+
+/memory — عرض ما يتذكره الوكيل عنك
+
+/feedback — إرسال ملاحظة للمطور
+
+حدود الاستخدام
+MAX_MESSAGES_PER_HOUR: 100
+
+MAX_TOKENS_PER_MESSAGE: 4000
+
+RATE_LIMIT_WINDOW: 3600
+
+
+---
+
+## ٣. إنشاء الوكلاء
+
+### الخطوات من الصفر
+
+**الخطوة ١: تثبيت OpenClaw**
 
 ```bash
-احصل على مفتاح API من: https://brave.com/search/api/
-ثم أضفه في openclaw.json
-{
+تثبيت عبر Docker
+docker pull openclaw/openclaw:latest
 
-"skills": {
+أو تثبيت مباشر
+git clone https://github.com/openclaw/openclaw.git
 
-"brave-search": {
+cd openclaw
 
-  "enabled": true,
-
-  "apiKey": "BSA-XXXXXXXXXXXXXXXX"
-
-}
-}
-
-}
+npm install
 
 
-### تفعيل Whisper (تحويل الصوت لنص):
+**الخطوة ٢: إنشاء مجلد الوكيل**
 
 ```bash
-تثبيت Python وبيئة افتراضية
-apt-get update && apt-get install -y python3 python3-pip python3-venv ffmpeg
 
-إنشاء البيئة الافتراضية
-python3 -m venv /opt/whisper-env
+mkdir -p ~/.openclaw/workspace/my-agent
 
-تفعيل البيئة
-source /opt/whisper-env/bin/activate
-
-تثبيت Whisper
-pip install openai-whisper
-
-اختبار التثبيت
-whisper --version
+cd ~/.openclaw/workspace/my-agent
+إنشاء الملفات السبعة
+touch SOUL.md IDENTITY.md AGENTS.md BOOTSTRAP.md HEARTBEAT.md TOOLS.md USER.md
 
 
-### تفعيل Google Calendar:
+**الخطوة ٣: إعداد openclaw.json**
 
 ```json
 
 {
 
-  "skills": {
+  "version": "1.0",
 
-    "google-calendar": {
+  "agent": {
 
-      "enabled": true,
+    "name": "my-agent",
 
-      "credentials": {
+    "workspace": "~/.openclaw/workspace/my-agent",
 
-        "clientId": "YOUR_CLIENT_ID",
+    "port": 3000
 
-        "clientSecret": "YOUR_CLIENT_SECRET",
+  },
 
-        "refreshToken": "YOUR_REFRESH_TOKEN"
+  "models": {
+
+    "default": "claude-3-5-sonnet-20241022",
+
+    "providers": [
+
+      {
+
+        "name": "anthropic",
+
+        "api": "openai-completions",
+
+        "apiKey": "sk-ant-...",
+
+        "baseUrl": "https://api.anthropic.com/v1",
+
+        "models": [
+
+          {
+
+            "id": "claude-3-5-sonnet-20241022",
+
+            "name": "Claude 3.5 Sonnet",
+
+            "contextLength": 200000,
+
+            "maxTokens": 8192
+
+          }
+
+        ]
 
       }
 
-    }
+    ]
 
-  }
+  },
 
-}
-تفعيل Moltbook (شبكة الوكلاء الاجتماعية):
-
-{
-
-  "moltbook": {
+  "memory": {
 
     "enabled": true,
 
-    "apiKey": "YOUR_MOLTBOOK_API_KEY",
+    "type": "local",
 
-    "agentName": "اسم_وكيلك",
-
-    "autoPost": true,
-
-    "monitorFeed": true
+    "path": "~/.openclaw/memory"
 
   }
 
 }
-👤 الملف السابع: USER.md — إدارة المستخدمين
-هذا الملف يحدد من يحق له التحدث مع وكيلك.
-الأمان الكامل — أنت من تتحكم في القائمة.
+الخطوة ٤: تشغيل الوكيل
 
-إعداد المستخدمين:
 undefined
-قائمة المستخدمين المصرح لهم
-المالك (صلاحيات كاملة)
-الرقم: +966XXXXXXXXX
-الصلاحيات: كل شيء
-المساعدون (صلاحيات محدودة)
-الرقم: +966XXXXXXXXX
-الصلاحيات: قراءة وإرسال فقط
-المحظورون
-لا أحد حالياً
+تشغيل مباشر
+openclaw start --config openclaw.json
 
-### أوامر المستخدم المتاحة:
-/help ← قائمة الأوامر
+أو عبر Docker
+docker run -d \
 
-/status ← حالة الوكيل
+--name my-agent \
 
-/reload ← إعادة تحميل الإعدادات
+-p 3000:3000 \
 
-/agents ← قائمة الوكلاء
+-v ~/.openclaw:/root/.openclaw \
 
-/tools ← قائمة الأدوات المفعّلة
-
-/logs ← آخر السجلات
+openclaw/openclaw:latest
 
 
----
-
-## ⚡ تغذية العقل — الدورة الكاملة
-┌─────────────────────────────────────────────┐
-
-│ دورة تطوير الوكيل │
-
-│ │
-
-│ 1. عدّل الملف المناسب │
-
-│ ↓ │
-
-│ 2. احفظ التغييرات │
-
-│ ↓ │
-
-│ 3. أرسل /reload للوكيل │
-
-│ ↓ │
-
-│ 4. اختبر السلوك الجديد │
-
-│ ↓ │
-
-│ 5. كرّر حتى تصل للنتيجة المثالية │
-
-└─────────────────────────────────────────────┘
-
-
-### إعادة التحميل السريعة:
+**الخطوة ٥: اختبار الوكيل**
 
 ```bash
-الطريقة الأولى — عبر الوكيل مباشرة
-/reload
+اختبار بسيط
+curl -X POST http://localhost:3000/chat \
 
-الطريقة الثانية — عبر السيرفر
-docker restart openclaw
+-H "Content-Type: application/json" \
 
-الطريقة الثالثة — إعادة تشغيل كاملة
-docker stop openclaw && docker start openclaw
+-d '{"message": "مرحبا، كيف حالك؟"}'
+
+الرد المتوقع
+{"response": "مرحباً! أنا بخير وجاهز لمساعدتك 🙂"}
+
+---
+
+## ٤. الربح من الوكلاء
+
+### نماذج العمل الحقيقية
+
+**النموذج ١: خدمة دعم العملاء**
+التكلفة الشهرية:
+
+├── سيرفر VPS: $20/شهر
+
+├── API (Claude/GPT): $30-50/شهر
+
+└── المجموع: ~$50-70/شهر
+
+الإيرادات:
+
+├── 10 عملاء × $200/شهر = $2,000/شهر
+
+└── صافي الربح: ~$1,930/شهر
+
+
+**النموذج ٢: وكيل محتوى (كتابة + نشر)**
+التكلفة:
+
+├── سيرفر: $20/شهر
+
+├── API: $40/شهر
+
+└── المجموع: $60/شهر
+
+الإيرادات:
+
+├── 5 عملاء × $500/شهر = $2,500/شهر
+
+└── صافي الربح: ~$2,440/شهر
+
+
+**النموذج ٣: وكيل مبيعات (Lead Generation)**
+التكلفة:
+
+├── سيرفر: $30/شهر
+
+├── API + أدوات: $70/شهر
+
+└── المجموع: $100/شهر
+
+الإيرادات:
+
+├── عمولة 10% على صفقات = $3,000-10,000/شهر
+
+└── صافي الربح: $2,900-9,900/شهر
+
+
+### مقارنة: وكيل AI مقابل موظف بشري
+
+| | وكيل AI | موظف بشري |
+|--|---------|-----------|
+| التكلفة الشهرية | $50-200 | $2,000-5,000 |
+| ساعات العمل | 24/7 | 8 ساعات |
+| وقت الاستجابة | ثوانٍ | دقائق-ساعات |
+| التوسع | فوري | أشهر |
+| الإجازات | لا يأخذ | نعم |
+
+> 💰 **الحقيقة:** وكيل واحد بـ $100/شهر يعمل عمل 3 موظفين بـ $6,000/شهر.
+
+### كيف تبدأ بالربح؟
+
+**المرحلة ١ — ابنِ وكيلك الخاص (الشهر الأول)**
+- حدد مشكلة واحدة تحلها
+- ابنِ وكيلاً بسيطاً يحلها
+- اختبره على نفسك أولاً
+
+**المرحلة ٢ — أول عميل (الشهر الثاني)**
+- قدّم الوكيل لشخص يعاني من نفس المشكلة
+- ابدأ بسعر رمزي ($50-100) مقابل تجربة حقيقية
+- اجمع الملاحظات وحسّن
+
+**المرحلة ٣ — التوسع (الشهر الثالث+)**
+- ارفع السعر بعد إثبات القيمة
+- أضف عملاء جدد بنفس الوكيل
+- كل عميل جديد = ربح شبه صافي
+
+---
+
+## ٥. تنظيم الوكلاء وإدارتهم
+
+### إدارة عدة وكلاء بـ Docker Compose
+
+```yaml
+docker-compose.yml
+version: '3.8'
+
+services:
+
+agent-support:
+
+image: openclaw/openclaw:latest
+
+container_name: agent-support
+
+ports:
+
+  - "3001:3000"
+
+volumes:
+
+  - ~/.openclaw/agents/support:/root/.openclaw/workspace
+
+environment:
+
+  - AGENT_NAME=support-agent
+
+restart: unless-stopped
+agent-content:
+
+image: openclaw/openclaw:latest
+
+container_name: agent-content
+
+ports:
+
+  - "3002:3000"
+
+volumes:
+
+  - ~/.openclaw/agents/content:/root/.openclaw/workspace
+
+environment:
+
+  - AGENT_NAME=content-agent
+
+restart: unless-stopped
+agent-sales:
+
+image: openclaw/openclaw:latest
+
+container_name: agent-sales
+
+ports:
+
+  - "3003:3000"
+
+volumes:
+
+  - ~/.openclaw/agents/sales:/root/.openclaw/workspace
+
+environment:
+
+  - AGENT_NAME=sales-agent
+
+restart: unless-stopped
+
+**تشغيل الكل دفعة واحدة:**
+
+```bash
+
+docker-compose up -d
+عرض حالة الكل
+docker-compose ps
+
+إيقاف الكل
+docker-compose down
+
+
+### مراقبة مركزية
+
+```bash
+عرض logs كل الوكلاء في نفس الوقت
+docker-compose logs -f
+
+عرض استهلاك الموارد
+docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
+
+النتيجة المتوقعة:
+NAME CPU % MEM USAGE
+agent-support 0.5% 256MiB / 2GiB
+agent-content 0.3% 198MiB / 2GiB
+agent-sales 0.8% 312MiB / 2GiB
+
+### هيكل المجلدات المنظّم
+
+```bash
+
+~/.openclaw/
+
+├── agents/
+
+│   ├── support/          # وكيل الدعم
+
+│   │   ├── SOUL.md
+
+│   │   ├── IDENTITY.md
+
+│   │   └── ...
+
+│   ├── content/          # وكيل المحتوى
+
+│   │   ├── SOUL.md
+
+│   │   └── ...
+
+│   └── sales/            # وكيل المبيعات
+
+│       ├── SOUL.md
+
+│       └── ...
+
+├── shared/
+
+│   ├── credentials/      # مفاتيح API مشتركة
+
+│   └── memory/           # ذاكرة مشتركة
+
+├── logs/                 # سجلات الأحداث
+
+└── backups/              # نسخ احتياطية
+٦. الأدوات والتكاملات
+Brave Search — البحث الذكي
+undefined
+الحصول على API Key
+https://api.search.brave.com/
+اختبار مباشر
+curl -H "Accept: application/json" \
+
+ -H "Accept-Encoding: gzip" \
+
+ -H "X-Subscription-Token: BSA..." \
+
+ "https://api.search.brave.com/res/v1/web/search?q=OpenClaw+AI&count=5"
+
+### Google Calendar — إدارة المواعيد
+
+```bash
+تثبيت المكتبة
+pip install google-auth google-auth-oauthlib google-api-python-client
+
+إعداد الاعتمادات
+١. اذهب لـ Google Cloud Console
+٢. أنشئ مشروع جديد
+٣. فعّل Calendar API
+٤. حمّل credentials.json
+٥. ضعه في ~/.openclaw/credentials/
+
+### Whisper — تحويل الصوت لنص
+
+```python
+مثال استخدام Whisper مع الوكيل
+import openai
+
+def transcribe_audio(audio_file_path):
+
+client = openai.OpenAI(api_key="sk-...")
+
+
+
+with open(audio_file_path, "rb") as audio_file:
+
+    transcript = client.audio.transcriptions.create(
+
+        model="whisper-1",
+
+        file=audio_file,
+
+        language="ar"  # عربي
+
+    )
+
+
+
+return transcript.text
+الاستخدام
+text = transcribe_audio("voice_message.ogg")
+
+print(text) # "مرحبا، أريد حجز موعد غداً الساعة العاشرة"
 
 
 ---
 
-## 💰 حالات الاستخدام الحقيقية
+## 📌 ورقة الغش السريعة
 
-### 🛒 وكيل التجارة الإلكترونية
-> استبدل موظف VA بـ ٢٠٠٠ دولار شهرياً بوكيل بـ ٤٤ دولار
+```bash
+═══════════════════════════════════════
+أوامر OpenClaw الأساسية
+═══════════════════════════════════════
+تشغيل وكيل
+docker start [agent-name]
 
-```markdown
-SOUL.md للتجارة الإلكترونية
-أنت مساعد متجر إلكتروني متخصص.
+إيقاف وكيل
+docker stop [agent-name]
 
-مهامك: رد على استفسارات العملاء، تتبع الطلبات،
+إعادة تشغيل
+docker restart [agent-name]
 
-معالجة الشكاوى، إرسال تأكيدات الشحن.
+عرض الحالة
+docker ps
 
-أسلوبك: ودود، سريع، محترف.
+عرض الـ logs
+docker logs -f [agent-name] --tail=50
 
+الدخول للوكيل
+docker exec -it [agent-name] bash
 
-### 📱 وكيل المحتوى والسوشيال ميديا
-```markdown
-SOUL.md لإدارة المحتوى
-أنت مدير محتوى رقمي متخصص.
+تحديث الوكيل
+docker pull openclaw/openclaw:latest
 
-مهامك: كتابة المنشورات، جدولة المحتوى،
+docker-compose up -d --force-recreate
 
-تحليل التفاعل، اقتراح أفكار جديدة.
+نسخة احتياطية
+tar -czf backup-$(date +%Y%m%d).tar.gz ~/.openclaw/
 
-أسلوبك: إبداعي، جذاب، يناسب الجمهور العربي.
-
-
-### 🏢 وكيل خدمة العملاء
-```markdown
-SOUL.md لخدمة العملاء
-أنت ممثل خدمة عملاء محترف.
-
-مهامك: الرد على الاستفسارات، حل المشاكل،
-
-تصعيد الحالات المعقدة، توثيق الشكاوى.
-
-أسلوبك: صبور، متفهم، حلول-محور.
-
-
----
-
-## 🗺️ الملخص النهائي — ورقة الغش
-
-| الملف | وظيفته | متى تعدّله |
-|-------|---------|-----------|
-| 🌱 `SOUL.md` | الشخصية والروح | تغيير أسلوب الوكيل |
-| 🪪 `IDENTITY.md` | الهوية والمفاتيح | تجديد المفاتيح السرية |
-| 🤖 `AGENTS.md` | العقل والنموذج | تغيير نموذج الذكاء الاصطناعي |
-| 🚀 `BOOTSTRAP.md` | الإعداد الأولي | الإعداد الأول فقط |
-| 💓 `HEARTBEAT.md` | المراقبة والصحة | مشاكل السيرفر |
-| 🛠️ `TOOLS.md` | الأدوات والقدرات | إضافة مهارات جديدة |
-| 👤 `USER.md` | إدارة المستخدمين | إضافة أشخاص جدد |
-
----
-
-## 📚 مصادر للتعمق أكثر
-
-| المصدر | الوصف |
-|--------|-------|
-| [🎥 استبدال موظف بـ ٢٠٠٠$ بوكيل بـ ٤٤$](https://youtu.be/f02ycoBt6tQ) | حالة استخدام حقيقية |
-| [🎥 كيف أربح من OpenClaw](https://youtu.be/G6sjXjGilLQ) | استراتيجيات الربح |
-| [🎥 ٥ مهارات تبني وكلاء حقيقية](https://youtu.be/F6MUCXQn1n0) | مهارات متقدمة |
-| [🎥 إنشاء وكلاء متعددة](https://youtu.be/EMBNyWVsEXc) | وكلاء متخصصة |
-| [🌐 AgentPrime](https://agentprime.io/) | أتمتة عمليات الإيرادات |
 
 ---
 
 <div align="center">
 
----
-
-**🦞 OpenArab — بالعربي للعربي**
-
-شرح وتعريب: [**مي للتقنية** 🌸](https://x.com/alraigah)
-
-*من أولى السعوديات في التقنية منذ ٢٠٠٢*
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/alraigah?style=social)](https://x.com/alraigah)
+**[@alraigah](https://x.com/alraigah)** | مي للتقنية
 
 </div>
 
