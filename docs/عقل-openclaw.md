@@ -1,4 +1,31 @@
 <div dir="rtl">
+
+![عقل OpenClaw](../تصميم%20بدون%20عنوان%20(1).png)
+
+<div align="center">
+
+# 🧠 الدخول إلى عقل OpenClaw
+## من يتحكم في الملفات السبعة — يتحكم في كل شيء
+
+> وكيل بـ ٤٤ دولار يحل محل موظف بـ ٢٠٠٠ دولار شهرياً.
+> السر مش في الأداة — السر في **كيف تغذّيها.**
+
+[![Twitter](https://img.shields.io/badge/مي_للتقنية-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://x.com/alraigah)
+[![GitHub](https://img.shields.io/badge/openArab-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maydhafer/openArab)
+
+</div>
+
+---
+
+## 🚀 كيف تثبّت OpenClaw وتشغّله؟
+
+> دليل مبسط خطوة بخطوة — بدون خلفية تقنية
+
+**الشرح الكامل والمصادر:** 👉 [**openArab على GitHub**](https://github.com/maydhafer/openArab/tree/main)
+
+---
+
+<div dir="rtl">
 <div dir="rtl">
 
 ![عقل OpenClaw](../تصميم%20بدون%20عنوان%20(1).png)
